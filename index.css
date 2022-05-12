@@ -1,0 +1,114 @@
+.navbar_trabajo{
+    background-color:  #97C4B8;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    height: 2rem;
+    align-items: center;
+}
+
+.navbar_trabajo2{
+    background-color: #CCF3EE;
+    display: flex;
+    justify-content: right;
+    color: white;
+    text-decoration: none;
+}
+
+.cabecera{
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner{
+    height: 16rem;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.banner img{
+    width: 98.7vw;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.logo img{
+    width: 8rem;
+    cursor: pointer;
+}
+
+.iconsGrupo{
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.iconsGrupo img{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.titulo{
+    text-align: center;
+    padding: 2rem;
+   
+}
+
+.info{
+    padding: 2rem;
+}
+
+.cursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.item{
+    background-color: #DAE5D0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    width: 16rem;
+    height: 18rem;
+    border-radius: .5rem;
+    padding-top: 2rem;
+   
+}
+
+.item img{
+    height: 14rem;
+    width: 12rem;
+    cursor: pointer;
+}
+
+.item span{
+   font-size: 1.4rem;
+   font-weight: 600; 
+}
+
+.item p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.foot{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(136, 129, 129);
+}
